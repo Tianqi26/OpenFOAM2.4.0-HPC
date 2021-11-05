@@ -39,4 +39,5 @@ source /project/cs16/tma5/OpenFOAM/OpenFOAM-2.4.0/etc/bashrc WM_NCOMPPROCS=4 foa
 .module
 .bashrc
 2. select suitable mpich for the OpenFOAM2.4.0
-In supermic, "mpich/3.1.1/INTEL-14.0.2" is suitable
+In supermic, "mpich/3.3.2/intel-19.0.5" is suitable
+3. To load different mpich, modulepath should be set
