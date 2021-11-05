@@ -34,3 +34,9 @@ If encoutered any problem, please refer to the log files(log.mkbinutils; log.mkc
 module load gcc/8.4.0
 source /project/cs16/tma5/OpenFOAM/OpenFOAM-2.4.0/etc/bashrc WM_NCOMPPROCS=4 foamCompiler=ThirdParty WM_COMPILER=Gcc48 WM_MPLIB=SYSTEMOPENMPI
 ```
+### some tips
+1. files in home can define the environment
+.module
+.bashrc
+2. select suitable mpich for the OpenFOAM2.4.0
+In supermic, "mpich/3.1.1/INTEL-14.0.2" is suitable
